@@ -3,11 +3,12 @@ $(document).ready(function (){
         url: 'https://api.github.com', 
         dataType: 'json',
         data: {
-            api_key: 'eb1e26943a32445898b2524d4d9877db', 
+            api_key: '', 
             q: input, 
             limit: 3, 
             rating: 'PG-13'
         }
 });
+
 
 
