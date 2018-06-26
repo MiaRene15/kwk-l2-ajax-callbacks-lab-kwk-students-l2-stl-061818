@@ -2,7 +2,9 @@ $(document).ready(function (){
   
 });
 
-$('#searchRep')
+$('#searchRep') {
+  
+}
 $.ajax({
         url: 'https://api.github.com', 
         dataType: 'json',
