@@ -9,7 +9,6 @@ $('#searchRep').click(function() {
   $.get(`https://api.github.com/search/repositories?q=${#searchTerms}`, data => {
     ${#results}
   }
-  
 }
 )
 
