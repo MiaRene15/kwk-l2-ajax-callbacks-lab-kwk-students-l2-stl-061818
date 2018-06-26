@@ -2,7 +2,7 @@ $(document).ready(function (){
   
 });
 
-let 
+let user = 
 
 $('#searchRep').click(function searchTerms() {
   
