@@ -4,7 +4,7 @@ $(document).ready(function (){
 
 let user = $('#searchTerm').val()
 
-$('#searchRep').click(function searchTerms() {
+$('#searchRep').click(function() {
   let user = $('#searchTerm').val()
   
 }
