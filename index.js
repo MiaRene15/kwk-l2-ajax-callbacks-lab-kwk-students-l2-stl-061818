@@ -2,7 +2,7 @@ $(document).ready(function (){
   
 });
 
-$('#searchRep').click() {
+$('#searchRep').click( function) {
   
 }
 $.ajax({
