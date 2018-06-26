@@ -1,14 +1,16 @@
 $(document).ready(function (){
-  $.ajax({
+  
+});
+
+$.ajax({
         url: 'https://api.github.com', 
         dataType: 'json',
         data: {
             api_key: '', 
             q: input, 
-            limit: 3, 
+            limit: 1, 
             rating: 'PG-13'
         }
-});
 
 
 
