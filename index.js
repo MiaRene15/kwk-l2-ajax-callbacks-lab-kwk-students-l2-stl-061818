@@ -2,9 +2,10 @@ $(document).ready(function (){
   
 });
 
-$('#searchRep').click( function) {
+$('#searchRep').click(function searchTerms() {
   
 }
+
 $.ajax({
         url: 'https://api.github.com', 
         dataType: 'json',
